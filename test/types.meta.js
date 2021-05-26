@@ -1,5 +1,5 @@
-var app = require('../index');
-var assert = require('assert');
+const app = require('../index');
+const assert = require('assert');
 
 class TSClass{}
 describe('$.types.meta', function(){

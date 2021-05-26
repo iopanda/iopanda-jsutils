@@ -1,7 +1,12 @@
 'use strict';
 
-function exec(fn){
-    console.log(Object.prototype.toString.call(fn))
+const validate = require('../types/validate');
+
+function exec(fn, args){
+    if(validate.isSyncFunction(fn)) return fn(args);
+    if(validate.isAsyncFunction(fn)){
+        
+    }
 }
 
 module.exports = {
