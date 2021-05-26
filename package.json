@@ -1,0 +1,28 @@
+{
+  "name": "iopanda-jsutils",
+  "version": "0.0.1",
+  "description": "utils for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iopanda/iopanda-jsutils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "iopanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iopanda/iopanda-jsutils/issues"
+  },
+  "homepage": "https://github.com/iopanda/iopanda-jsutils#readme",
+  "dependencies": {
+    "export-dirs": "^0.2.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  }
+}
